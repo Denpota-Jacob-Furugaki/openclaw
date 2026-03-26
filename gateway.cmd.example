@@ -1,0 +1,9 @@
+@echo off
+REM OpenClaw Gateway Startup Script
+REM Copy this file to gateway.cmd and add your API keys
+
+set ANTHROPIC_API_KEY=sk-ant-YOUR_KEY_HERE
+set OPENAI_API_KEY=sk-YOUR_KEY_HERE
+set PORT=8080
+
+node server.js
