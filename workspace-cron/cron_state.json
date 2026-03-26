@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "lastUpdated": null,
+  "jobs": {
+    "job-hunt-morning": {
+      "lastRun": null,
+      "lastStatus": null,
+      "consecutiveFailures": 0
+    },
+    "job-hunt-afternoon": {
+      "lastRun": null,
+      "lastStatus": null,
+      "consecutiveFailures": 0
+    },
+    "gmail-reply-bot-morning": {
+      "lastRun": null,
+      "lastStatus": null,
+      "consecutiveFailures": 0
+    },
+    "gmail-reply-bot-afternoon": {
+      "lastRun": null,
+      "lastStatus": null,
+      "consecutiveFailures": 0
+    },
+    "interview-monitor": {
+      "lastRun": null,
+      "lastStatus": null,
+      "consecutiveFailures": 0
+    },
+    "crowdworks-handler": {
+      "lastRun": null,
+      "lastStatus": null,
+      "consecutiveFailures": 0
+    },
+    "daily-digest": {
+      "lastRun": null,
+      "lastStatus": null,
+      "consecutiveFailures": 0
+    }
+  }
+}

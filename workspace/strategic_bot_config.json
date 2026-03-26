@@ -1,0 +1,165 @@
+{
+  "positioning": {
+    "primary_niche": "AI Workflow Builder",
+    "secondary_niche": "Product Engineer with Revenue Ownership",
+    "value_prop_japanese": "私は、AIワークフロー実装とマーケティングエンジニアリングを専門とするフリーランス開発者です。\n\n【強み】\n・AI自動化システムの実装（OpenAI API、ChatGPT統合）\n・フルスタック開発（React/Next.js + Node.js + Python）\n・マーケティング×技術のハイブリッド経験\n\n【実績】\n・Onitsuka Tiger 17ヶ国展開 ROAS 120%達成\n・Meta社 Q1パフォーマンス1位/34名\n・複数のAI自動化ボット開発\n\n【提供価値】\nビジネスワークフローへのAI導入・自動化から、データドリブンな成長施策まで、技術とビジネス成果を繋ぐエンジニアリングを提供します。\n\nポートフォリオ：https://denpota-portfolio.vercel.app/",
+    "value_prop_english": "I'm a freelance software engineer specializing in AI workflow implementation and marketing engineering.\n\n**Strengths:**\n- AI automation system implementation (OpenAI API, ChatGPT integration)\n- Full-stack development (React/Next.js + Node.js + Python)\n- Hybrid marketing × technical expertise\n\n**Track Record:**\n- Onitsuka Tiger 17-country expansion: 120% ROAS\n- Meta Q1 Top Performer #1/34\n- Multiple AI automation bots (job applications, email responses)\n\n**Value Delivery:**\nFrom AI integration into business workflows to data-driven growth initiatives, I bridge technical execution and measurable business outcomes.\n\nPortfolio: https://denpota-portfolio.vercel.app/"
+  },
+  "platform_strategies": {
+    "CrowdWorks": {
+      "daily_target": 5,
+      "priority": "HIGH",
+      "search_keywords": [
+        "AI",
+        "自動化",
+        "ChatGPT",
+        "LLM",
+        "API連携",
+        "ワークフロー",
+        "機械学習",
+        "OpenAI"
+      ],
+      "positioning": "AI automation specialist for business workflows",
+      "filters": {
+        "remote": true,
+        "keywords_include": [
+          "AI",
+          "自動化",
+          "ワークフロー",
+          "ChatGPT",
+          "API"
+        ],
+        "keywords_exclude": [
+          "営業",
+          "事務",
+          "単純作業"
+        ]
+      }
+    },
+    "Lancers": {
+      "daily_target": 5,
+      "priority": "HIGH",
+      "search_keywords": [
+        "AI",
+        "機械学習",
+        "ChatGPT",
+        "データ分析",
+        "マーケティング",
+        "自動化"
+      ],
+      "positioning": "AI + marketing engineering specialist",
+      "filters": {
+        "remote": true,
+        "keywords_include": [
+          "AI",
+          "マーケティング",
+          "分析",
+          "自動化"
+        ],
+        "keywords_exclude": [
+          "営業",
+          "事務"
+        ]
+      }
+    },
+    "LinkedIn": {
+      "daily_target": 3,
+      "priority": "HIGH",
+      "search_keywords": [
+        "AI implementation",
+        "marketing engineering",
+        "growth engineering",
+        "AI workflow",
+        "automation"
+      ],
+      "positioning": "AI-enabled product engineer with proven revenue impact",
+      "filters": {
+        "remote": true,
+        "keywords_include": [
+          "AI",
+          "remote",
+          "automation",
+          "growth"
+        ],
+        "keywords_exclude": [
+          "sales",
+          "admin"
+        ]
+      }
+    },
+    "Forkwell": {
+      "daily_target": 3,
+      "priority": "MEDIUM",
+      "search_keywords": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "AI",
+        "full-stack",
+        "機械学習"
+      ],
+      "positioning": "Full-stack engineer with AI/marketing background",
+      "filters": {
+        "remote": true,
+        "keywords_include": [
+          "React",
+          "TypeScript",
+          "AI",
+          "リモート"
+        ],
+        "keywords_exclude": []
+      }
+    },
+    "Findy": {
+      "daily_target": 2,
+      "priority": "MEDIUM",
+      "search_keywords": [
+        "AI",
+        "機械学習",
+        "フルスタック",
+        "TypeScript",
+        "React"
+      ],
+      "positioning": "AI workflow engineer",
+      "filters": {
+        "remote": true,
+        "keywords_include": [
+          "AI",
+          "フルスタック",
+          "リモート"
+        ],
+        "keywords_exclude": []
+      }
+    },
+    "Daijob": {
+      "daily_target": 2,
+      "priority": "MEDIUM",
+      "search_keywords": [
+        "AI",
+        "software engineer",
+        "full-stack",
+        "marketing engineer"
+      ],
+      "positioning": "AI + marketing specialist",
+      "filters": {
+        "remote": true,
+        "keywords_include": [
+          "AI",
+          "remote",
+          "engineer"
+        ],
+        "keywords_exclude": [
+          "sales only"
+        ]
+      }
+    }
+  },
+  "total_daily_target": 20,
+  "focus_areas": [
+    "AI workflow implementation",
+    "ChatGPT/LLM integration",
+    "Marketing automation",
+    "Growth engineering",
+    "Product engineering with ROI focus"
+  ]
+}

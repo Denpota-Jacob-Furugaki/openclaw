@@ -1,0 +1,13 @@
+2026/03/24-15:25:13.896 1c728 Reusing MANIFEST C:\Users\denpo\CascadeProjects\my-first-ai-agent\crowdworks_session\Default\Local Storage\leveldb/MANIFEST-000001
+2026/03/24-15:25:13.945 1c728 Recovering log #68
+2026/03/24-15:25:13.982 1c728 Level-0 table #71: started
+2026/03/24-15:25:14.005 1c728 Level-0 table #71: 16845 bytes OK
+2026/03/24-15:25:14.026 1c728 Recovering log #70
+2026/03/24-15:25:14.027 1c728 Reusing old log C:\Users\denpo\CascadeProjects\my-first-ai-agent\crowdworks_session\Default\Local Storage\leveldb/000070.log 
+2026/03/24-15:25:14.033 1c728 Delete type=0 #68
+2026/03/24-15:28:19.293 c6ec Level-0 table #73: started
+2026/03/24-15:28:19.304 c6ec Level-0 table #73: 18991 bytes OK
+2026/03/24-15:28:19.310 c6ec Delete type=0 #70
+2026/03/24-15:31:19.297 c6ec Level-0 table #75: started
+2026/03/24-15:31:19.315 c6ec Level-0 table #75: 13856 bytes OK
+2026/03/24-15:31:19.322 c6ec Delete type=0 #72

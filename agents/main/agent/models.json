@@ -1,0 +1,53 @@
+{
+  "providers": {
+    "ollama": {
+      "baseUrl": "http://127.0.0.1:11434",
+      "api": "ollama",
+      "models": [
+        {
+          "id": "qwen2.5-coder:32b",
+          "name": "qwen2.5-coder:32b",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 32768,
+          "maxTokens": 8192
+        },
+        {
+          "id": "deepseek-r1:14b",
+          "name": "deepseek-r1:14b",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 8192
+        }
+      ],
+      "apiKey": "ollama-local"
+    },
+    "anthropic": {
+      "baseUrl": "https://api.anthropic.com",
+      "api": "openai",
+      "apiKey": "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"
+    },
+    "openai": {
+      "baseUrl": "https://api.openai.com/v1",
+      "api": "openai",
+      "apiKey": "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"
+    }
+  }
+}

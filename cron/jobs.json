@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "42ffbe9a-2319-43a9-8190-a54db7ef59cb",
+      "agentId": "cron",
+      "sessionKey": "agent:cron:cron",
+      "name": "Continuous Job Applications - Morning",
+      "enabled": true,
+      "createdAtMs": 1774333465023,
+      "updatedAtMs": 1774396801641,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * *",
+        "tz": "Asia/Tokyo"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the continuous job hunter: `cd C:\\Users\\denpo\\.openclaw\\workspace && python continuous_job_hunter.py`. Report summary of applications sent, responses handled, and any interviews found.",
+        "timeoutSeconds": 900
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1774483200000,
+        "lastRunAtMs": 1774396800023,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 1618,
+        "lastError": "FailoverError: No API key found for provider \"ollama\". Auth store: C:\\Users\\denpo\\.openclaw\\agents\\cron\\agent\\auth-profiles.json (agentDir: C:\\Users\\denpo\\.openclaw\\agents\\cron\\agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.",
+        "lastErrorReason": "auth",
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1
+      }
+    },
+    {
+      "id": "3ca77ee1-dd62-418c-9c4e-5439ea36a87f",
+      "agentId": "cron",
+      "sessionKey": "agent:cron:cron",
+      "name": "Continuous Job Applications - Afternoon",
+      "enabled": true,
+      "createdAtMs": 1774333470781,
+      "updatedAtMs": 1774415129777,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 14 * * *",
+        "tz": "Asia/Tokyo"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the continuous job hunter: `cd C:\\Users\\denpo\\.openclaw\\workspace && python continuous_job_hunter.py`. Report summary of applications sent, responses handled, and any interviews found.",
+        "timeoutSeconds": 900
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1774501200000,
+        "lastRunAtMs": 1774414800028,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 329749,
+        "lastError": "Delivering to Telegram requires target <chatId>",
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1
+      }
+    },
+    {
+      "id": "4ab7ae4d-89fb-4916-ad45-ce21002e8265",
+      "agentId": "cron",
+      "sessionKey": "agent:cron:cron",
+      "name": "Quick Message Check - Hourly",
+      "enabled": true,
+      "createdAtMs": 1774333480327,
+      "updatedAtMs": 1774415182208,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 * * * *",
+        "tz": "Asia/Tokyo",
+        "staggerMs": 300000
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Check for new job messages and interview requests: `cd C:\\Users\\denpo\\.openclaw\\workspace && python check_interview_requests.py`. If any found, alert immediately with details.",
+        "timeoutSeconds": 300
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1774418782208,
+        "lastRunAtMs": 1774415131964,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 50244,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 19,
+        "lastError": "Delivering to Telegram requires target <chatId>"
+      }
+    },
+    {
+      "id": "b1a66149-c330-438b-ba98-328778557985",
+      "agentId": "cron",
+      "sessionKey": "agent:cron:cron",
+      "name": "Expense Tracker Update",
+      "enabled": true,
+      "createdAtMs": 1774341863095,
+      "updatedAtMs": 1774341863095,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "tz": "Asia/Tokyo"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the expense tracker: scan Gmail receipts and update the spreadsheet. Run: cd C:\\Users\\denpo\\CascadeProjects\\my-first-ai-agent && python run_expense_update.py — then report the summary to me.",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1774828800000
+      }
+    },
+    {
+      "id": "b76edbca-52f2-4aca-81d0-4ed4f75620d6",
+      "agentId": "main",
+      "sessionKey": "agent:main:main",
+      "name": "faqdata-gmail-scrape",
+      "enabled": true,
+      "createdAtMs": 1774345471473,
+      "updatedAtMs": 1774345692188,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 2 * * 1",
+        "tz": "Asia/Tokyo"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the FAQdata Gmail scraper incrementally. Execute this command and report the result:\n\ncd C:\\Users\\denpo\\OneDrive\\Coding\\FAQdata && python src/scrape_gmail.py --incremental\n\nIf it fails with a session error, remind Denpo to run: python src/setup_gmail_session.py\nIf it succeeds, report how many new threads and messages were scraped.",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1774803600000
+      }
+    }
+  ]
+}

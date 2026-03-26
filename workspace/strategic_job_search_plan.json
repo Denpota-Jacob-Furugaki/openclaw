@@ -1,0 +1,123 @@
+{
+  "strategy": {
+    "generated_at": "2026-03-24T17:09:13.931263",
+    "top_3_niches": [
+      {
+        "niche": "AI workflow builder",
+        "match_score": 95,
+        "reasoning": "Strong AI/ML experience (OpenAI, TensorFlow), JavaScript/TypeScript for integration",
+        "proof_points": [
+          "Built multiple AI automation bots (job search, email replies)",
+          "OpenAI API integration experience",
+          "Full-stack capability (React + Node.js)"
+        ]
+      },
+      {
+        "niche": "Product engineer with revenue ownership",
+        "match_score": 90,
+        "reasoning": "Marketing + dev background, proven ROI metrics",
+        "proof_points": [
+          "Onitsuka Tiger 17 countries ROAS 120%",
+          "Meta Q1 Top Performer #1/34",
+          "Full-stack development (React/Next.js, Node.js)"
+        ]
+      },
+      {
+        "niche": "Data and analytics engineer",
+        "match_score": 75,
+        "reasoning": "Marketing analytics experience, data-driven approach",
+        "proof_points": [
+          "Google/META Ads analytics",
+          "InsightHub task efficiency tracking",
+          "Data-driven marketing decisions"
+        ]
+      }
+    ],
+    "platform_priorities": {
+      "CrowdWorks": "High",
+      "Lancers": "High",
+      "Forkwell": "Medium",
+      "LinkedIn": "High"
+    },
+    "search_terms": {
+      "CrowdWorks": [
+        "AI",
+        "自動化",
+        "ChatGPT",
+        "LLM",
+        "API連携",
+        "ワークフロー"
+      ],
+      "Lancers": [
+        "AI",
+        "機械学習",
+        "ChatGPT",
+        "データ分析",
+        "マーケティング"
+      ],
+      "Forkwell": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "AI",
+        "full-stack"
+      ],
+      "LinkedIn": [
+        "AI implementation",
+        "marketing engineering",
+        "growth engineering"
+      ]
+    },
+    "value_propositions": {
+      "CrowdWorks": "AI automation specialist for business workflows",
+      "Lancers": "AI + marketing engineering specialist",
+      "Forkwell": "Full-stack engineer with AI/marketing background",
+      "LinkedIn": "AI-enabled product engineer with proven revenue impact"
+    },
+    "application_targets": {
+      "CrowdWorks": {
+        "daily_target": 5,
+        "focus": "AI automation, workflow integration, ChatGPT projects",
+        "filters": [
+          "リモート",
+          "AI",
+          "自動化",
+          "フルスタック"
+        ]
+      },
+      "Lancers": {
+        "daily_target": 5,
+        "focus": "AI implementation, marketing + tech hybrid",
+        "filters": [
+          "AI",
+          "マーケティング",
+          "リモート",
+          "開発"
+        ]
+      },
+      "Forkwell": {
+        "daily_target": 3,
+        "focus": "Engineering roles with product ownership",
+        "filters": [
+          "React",
+          "TypeScript",
+          "AI",
+          "リモート"
+        ]
+      },
+      "LinkedIn": {
+        "daily_target": 3,
+        "focus": "Global remote, AI implementation, growth engineering",
+        "filters": [
+          "AI implementation",
+          "remote",
+          "growth engineering"
+        ]
+      }
+    }
+  },
+  "positioning": {
+    "japanese": "私は、AIワークフロー実装とマーケティングエンジニアリングを専門とするフリーランス開発者です。\n\n【強み】\n・AI自動化システムの実装（OpenAI API、ChatGPT統合）\n・フルスタック開発（React/Next.js + Node.js + Python）\n・マーケティング×技術のハイブリッド経験\n\n【実績】\n・Onitsuka Tiger 17ヶ国展開 ROAS 120%達成\n・Meta社 Q1パフォーマンス1位/34名\n・複数のAI自動化ボット開発（求人応募、メール返信）\n\n【提供価値】\nビジネスワークフローへのAI導入・自動化から、データドリブンな成長施策まで、技術とビジネス成果を繋ぐエンジニアリングを提供します。\n\nポートフォリオ：https://denpota-portfolio.vercel.app/",
+    "english": "I'm a freelance software engineer specializing in AI workflow implementation and marketing engineering.\n\n**Strengths:**\n- AI automation system implementation (OpenAI API, ChatGPT integration)\n- Full-stack development (React/Next.js + Node.js + Python)\n- Hybrid marketing × technical expertise\n\n**Track Record:**\n- Onitsuka Tiger 17-country expansion: 120% ROAS\n- Meta Q1 Top Performer #1/34\n- Multiple AI automation bots (job applications, email responses)\n\n**Value Delivery:**\nFrom AI integration into business workflows to data-driven growth initiatives, I bridge technical execution and measurable business outcomes.\n\nPortfolio: https://denpota-portfolio.vercel.app/"
+  }
+}
